@@ -1,0 +1,240 @@
+2025-11-23 17:24:20 - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.org.springframework.security' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.org.springframework.security
+    Value: "warning"
+    Origin: class path resource [application.properties] - 34:44
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.warning)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-11-23 17:24:31 - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.org.springframework.security' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.org.springframework.security
+    Value: "warning"
+    Origin: class path resource [application.properties] - 34:44
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.warning)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-11-23 17:26:47 - cl.duoc.MicroserviciosApplication - Starting MicroserviciosApplication using Java 17.0.14 with PID 50845 (/Users/jvalencia/Desktop/Duoc/4Bimestre/Fullstack3/Semana5/laboratorio/target/classes started by jvalencia in /Users/jvalencia/Desktop/Duoc/4Bimestre/Fullstack3/Semana5/laboratorio)
+2025-11-23 17:26:47 - cl.duoc.MicroserviciosApplication - Running with Spring Boot v3.5.8, Spring v6.2.14
+2025-11-23 17:26:47 - cl.duoc.MicroserviciosApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-23 17:26:47 - o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/jvalencia/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.9.0.0/ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/Users/jvalencia/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.9.0.0/oraclepki.jar
+2025-11-23 17:26:47 - o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/jvalencia/.m2/repository/com/oracle/database/security/oraclepki/21.9.0.0/oraclepki-21.9.0.0.jar referenced one or more files that do not exist: file:/Users/jvalencia/.m2/repository/com/oracle/database/security/oraclepki/21.9.0.0/osdt_core.jar,file:/Users/jvalencia/.m2/repository/com/oracle/database/security/oraclepki/21.9.0.0/osdt_cert.jar,file:/Users/jvalencia/.m2/repository/com/oracle/database/security/oraclepki/oracle.osdt/osdt_core.jar,file:/Users/jvalencia/.m2/repository/com/oracle/database/security/oraclepki/oracle.osdt/osdt_cert.jar
+2025-11-23 17:26:47 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-23 17:26:47 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-23 17:26:48 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-23 17:26:48 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 88 ms. Found 5 JPA repository interfaces.
+2025-11-23 17:26:49 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-23 17:26:49 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-23 17:26:49 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-11-23 17:26:49 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-23 17:26:49 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2020 ms
+2025-11-23 17:26:50 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-23 17:26:50 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.36.Final
+2025-11-23 17:26:50 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-23 17:26:50 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-23 17:26:50 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-23 17:26:52 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@40b886fc
+2025-11-23 17:26:52 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-23 17:26:52 - org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-23 17:26:52 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 19.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-23 17:26:53 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-23 17:26:53 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 17:26:54 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-23 17:26:54 - o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 4623e075-3057-4f68-9efe-53c19270f694
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-23 17:26:55 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-23 17:26:55 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-23 17:26:55 - cl.duoc.MicroserviciosApplication - Started MicroserviciosApplication in 8.249 seconds (process running for 8.943)
+2025-11-23 17:31:33 - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-23 17:31:33 - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-23 17:31:33 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 17:31:33 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-23 17:31:33 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-23 17:32:45 - cl.duoc.MicroserviciosApplication - Starting MicroserviciosApplication using Java 17.0.14 with PID 55913 (/Users/jvalencia/Desktop/Duoc/4Bimestre/Fullstack3/Semana5/laboratorio/target/classes started by jvalencia in /Users/jvalencia/Desktop/Duoc/4Bimestre/Fullstack3/Semana5/laboratorio)
+2025-11-23 17:32:45 - cl.duoc.MicroserviciosApplication - Running with Spring Boot v3.5.8, Spring v6.2.14
+2025-11-23 17:32:45 - cl.duoc.MicroserviciosApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-23 17:32:45 - o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/jvalencia/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.9.0.0/ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/Users/jvalencia/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.9.0.0/oraclepki.jar
+2025-11-23 17:32:45 - o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/jvalencia/.m2/repository/com/oracle/database/security/oraclepki/21.9.0.0/oraclepki-21.9.0.0.jar referenced one or more files that do not exist: file:/Users/jvalencia/.m2/repository/com/oracle/database/security/oraclepki/21.9.0.0/osdt_core.jar,file:/Users/jvalencia/.m2/repository/com/oracle/database/security/oraclepki/21.9.0.0/osdt_cert.jar,file:/Users/jvalencia/.m2/repository/com/oracle/database/security/oraclepki/oracle.osdt/osdt_core.jar,file:/Users/jvalencia/.m2/repository/com/oracle/database/security/oraclepki/oracle.osdt/osdt_cert.jar
+2025-11-23 17:32:45 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-23 17:32:45 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-23 17:32:46 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-23 17:32:46 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 5 JPA repository interfaces.
+2025-11-23 17:32:47 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-23 17:32:47 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-23 17:32:47 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-11-23 17:32:47 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-23 17:32:47 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1586 ms
+2025-11-23 17:32:47 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-23 17:32:47 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.36.Final
+2025-11-23 17:32:47 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-23 17:32:48 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-23 17:32:48 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-23 17:32:49 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@483d6078
+2025-11-23 17:32:49 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-23 17:32:49 - org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-23 17:32:49 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 19.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-23 17:32:50 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-23 17:32:50 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 17:32:51 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-23 17:32:51 - o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: bba6301d-f4ed-4077-910b-7100d523ed14
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-23 17:32:51 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-23 17:32:51 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-23 17:32:51 - cl.duoc.MicroserviciosApplication - Started MicroserviciosApplication in 6.534 seconds (process running for 6.922)
+2025-11-23 17:34:05 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-23 17:34:05 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-23 17:34:05 - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-23 17:41:31 - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-23 17:41:31 - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-23 17:41:32 - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-23 17:41:32 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 17:41:32 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-23 17:41:32 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-23 17:41:32 - cl.duoc.MicroserviciosApplication - Starting MicroserviciosApplication using Java 17.0.14 with PID 55913 (/Users/jvalencia/Desktop/Duoc/4Bimestre/Fullstack3/Semana5/laboratorio/target/classes started by jvalencia in /Users/jvalencia/Desktop/Duoc/4Bimestre/Fullstack3/Semana5/laboratorio)
+2025-11-23 17:41:32 - cl.duoc.MicroserviciosApplication - Running with Spring Boot v3.5.8, Spring v6.2.14
+2025-11-23 17:41:32 - cl.duoc.MicroserviciosApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-23 17:41:33 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-23 17:41:33 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 5 JPA repository interfaces.
+2025-11-23 17:41:33 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-23 17:41:33 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-23 17:41:33 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-11-23 17:41:33 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-23 17:41:33 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 549 ms
+2025-11-23 17:41:33 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-23 17:41:33 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-23 17:41:33 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-23 17:41:33 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-11-23 17:41:34 - com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@56c720c8
+2025-11-23 17:41:34 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-11-23 17:41:34 - org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-23 17:41:34 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 19.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-23 17:41:34 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-23 17:41:34 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 17:41:34 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-23 17:41:34 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-23 17:41:34 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-23 17:41:34 - cl.duoc.MicroserviciosApplication - Started MicroserviciosApplication in 1.934 seconds (process running for 529.831)
+2025-11-23 17:41:34 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-23 17:41:35 - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-23 17:41:35 - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-23 17:41:35 - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-23 17:41:35 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 17:41:35 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-11-23 17:41:36 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-11-23 17:41:36 - cl.duoc.MicroserviciosApplication - Starting MicroserviciosApplication using Java 17.0.14 with PID 55913 (/Users/jvalencia/Desktop/Duoc/4Bimestre/Fullstack3/Semana5/laboratorio/target/classes started by jvalencia in /Users/jvalencia/Desktop/Duoc/4Bimestre/Fullstack3/Semana5/laboratorio)
+2025-11-23 17:41:36 - cl.duoc.MicroserviciosApplication - Running with Spring Boot v3.5.8, Spring v6.2.14
+2025-11-23 17:41:36 - cl.duoc.MicroserviciosApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-23 17:41:36 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-23 17:41:36 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 5 JPA repository interfaces.
+2025-11-23 17:41:36 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-23 17:41:36 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-23 17:41:36 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-11-23 17:41:36 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-23 17:41:36 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 277 ms
+2025-11-23 17:41:36 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-23 17:41:36 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-23 17:41:36 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-23 17:41:36 - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-11-23 17:41:37 - com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection oracle.jdbc.driver.T4CConnection@1460894b
+2025-11-23 17:41:37 - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-11-23 17:41:37 - org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-23 17:41:37 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 19.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-23 17:41:37 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-23 17:41:37 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 17:41:37 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-23 17:41:38 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-23 17:41:38 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-23 17:41:38 - cl.duoc.MicroserviciosApplication - Started MicroserviciosApplication in 1.781 seconds (process running for 533.485)
+2025-11-23 17:41:38 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-23 17:42:10 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-23 17:42:10 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-23 17:42:10 - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-23 17:42:10 - org.hibernate.SQL - 
+    select
+        l1_0.id_laboratorio,
+        l1_0.codigo,
+        l1_0.direccion,
+        l1_0.estado,
+        l1_0.nombre,
+        l1_0.telefono 
+    from
+        laboratorios l1_0
+2025-11-23 17:43:08 - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-23 17:43:08 - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-23 17:43:08 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 17:43:08 - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-11-23 17:43:08 - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.

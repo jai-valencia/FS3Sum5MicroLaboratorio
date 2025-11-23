@@ -1,8 +1,8 @@
-package com.duoc.labs.service;
+package cl.duoc.service;
 
-import com.duoc.fslaboratorio.model.Laboratorio;
-import com.duoc.labs.dto.CrearLaboratorioDTO;
-import com.duoc.labs.repository.LaboratorioRepository;
+import cl.duoc.model.Laboratorio;
+import cl.duoc.dto.CrearLaboratorioDTO;
+import cl.duoc.repository.LaboratorioRepository;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;

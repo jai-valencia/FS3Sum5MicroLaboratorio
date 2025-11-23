@@ -1,11 +1,11 @@
-package com.duoc.labs.service;
+package cl.duoc.service;
 
 
-import com.duoc.fslaboratorio.model.*;
-import com.duoc.labs.dto.AsignarAnalisisDTO;
-import com.duoc.labs.dto.CambiarEstadoAsignacionDTO;
-import com.duoc.labs.dto.CrearOrdenDTO;
-import com.duoc.labs.repository.*;
+import cl.duoc.model.*;
+import cl.duoc.dto.AsignarAnalisisDTO;
+import cl.duoc.dto.CambiarEstadoAsignacionDTO;
+import cl.duoc.dto.CrearOrdenDTO;
+import cl.duoc.repository.*;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;

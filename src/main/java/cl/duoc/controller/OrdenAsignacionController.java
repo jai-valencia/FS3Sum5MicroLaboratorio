@@ -1,7 +1,7 @@
 package cl.duoc.controller;
 
 
-import cl.duoc.fslaboratorio.model.OrdenAnalisis;
+import cl.duoc.model.OrdenAnalisis;
 import cl.duoc.dto.AsignarAnalisisDTO;
 import cl.duoc.dto.CambiarEstadoAsignacionDTO;
 import cl.duoc.dto.CambiarEstadoOrdenDTO;
